@@ -11,8 +11,8 @@ def sendMessage(message):
     client = Client(account_sid, auth_token)
     message = client.messages.create(
             body=message,
-            to="+14086379426",
-            from_="+14088728804")
+            to="+",
+            from_="+")
 
     print(message.sid)
 url = ('https://newsapi.org/v2/top-headlines?'
