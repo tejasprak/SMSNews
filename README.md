@@ -1,22 +1,18 @@
 ## SMSNews
 Server that will connect to Twilio and serve latest world news via SMS.
 
-### Installation and Usage
-Prerequisites
+### Installation
+
 ```Python
-flask, requests, json, twilio, goose
+prereq: flask, requests, json, twilio, goose
 ```
-- Ensure you have Twilio account with balance.
-- Enter Twilio API authentication token into **main.py**
+- Ensure you have Twilio account with balance, and enter Twilio API authentication token into **main.py**
 ```Python
 python server.py
 python bot.py
 ```
-- Keep both running in different terminal windows.
-- Use **ngrok** binary to expose localhost to internet.
-- Enter ngrok address into Twilio webhook field
-- Done!
-- To use:
+- Keep both running in different terminal windows, use **ngrok** binary to expose localhost to internet, and enter ngrok address into Twilio webhook field
+### Usage
 - Type in "news" for an overview of what's going on right now.
 - For a further description you can type in the number corresponding to the headline you want to know more about, like "5" or "7".
 - To read the article itself, you can type in the number of the article and then "more", like "5 more" or "7 more".
