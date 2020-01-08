@@ -36,9 +36,20 @@ Thinking of the 2011 Egyptian protests, where an "unprecedented" internet block 
 
 ### Links
 [Tejas Prakash's Website](http://tejasp.me)
+
+
+
 [Devpost Page](https://devpost.com/software/sms-news)
+
+
+
+
 [LosAltosHacks III](https://www.losaltoshacks.com/2018/)
 
 
 Written for LosAltosHacks III on March 24, 2018.
+
+
+
+
 Team Members: Tejas Prakash, Pranav Janjam
