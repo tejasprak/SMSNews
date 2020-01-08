@@ -16,7 +16,8 @@ python bot.py
 - Type in "news" for an overview of what's going on right now.
 - For a further description you can type in the number corresponding to the headline you want to know more about, like "5" or "7".
 - To read the article itself, you can type in the number of the article and then "more", like "5 more" or "7 more".
-###How it works
+
+### How it works
 Server Component - Written in Python using Flask and Goose(**server.py**)
 - It receives the GET/POST request from Twilio and processes the received message.
 - Depending on the message, it constructs a reply and returns it to the sender.
