@@ -22,6 +22,7 @@ Server Component - Written in Python using Flask and Goose(**server.py**)
 - It receives the GET/POST request from Twilio and processes the received message.
 - Depending on the message, it constructs a reply and returns it to the sender.
 - **ngrok** exposes localhost/sms to the internet
+
 Client Component - Written in Python (**bot.py**)
 - Every ten minutes, this script sends a request to NewsAPI's server.
 - It takes the JSON response and stores it locally for server.py to parse when replying.
